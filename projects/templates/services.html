@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'base.html'%}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block page_content %}
+<div class="jumbotron" style="background-color: red">
+  <h1 class="display-6 text-center">Services</h1>
+</div>
+<h2 style="text-align:center">I develop and design responsive, simple and stunning websites with:</h2>
+<hr class="my-3">
+<div class="row d-flex justify-content-center">
+    <div class="col-4">
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title">Faster turnaround time than my competition</h5>
+        <p class="card-text"></p>I respect clients deadlines. I guarantee on time delivery for my client's project. </div></div>
+    </div>
+    <div class="col-4">
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title">Guaranteed satisfaction</h5>
+         <p class="card-text">Communication is key here. The better I understand my clients needs, the better quality of the final product.                                                  </p>
+        </div>
+       </div>
+    </div>
+    <div class="col-4">
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title">Discounts on long-term cooperation</h5>
+        <p class="card-text">Discounts on long term relationships, and clients who sign a maintenance plan with me.</p>
+    </div>
+    </div>
+    </div>
+</div>
+    <div class="col-4">
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title">Problem Solving</h5>
+        <p class="card-text">I solve my client's problems with clean, easy to use, and responsive web applications and blogs.  </p>
+  </div>
+</div>
+</div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'base.html'%}
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block page_content %}
+<div class="jumbotron" style="background-color: red">
+  <h1 class="display-2 text-center">Hello</h1>
+  <p class="lead text-center">My name is Kanyisa. I am a Creative and a Dynamic Web Developer.</p>
+  <hr class="my-3">
+  <p class="lead text-center">I Develop and Design: </p>
+  <p class="lead text-center">Responsive </p>
+  <p class="lead text-center">User friendly </p>
+  <p class="lead text-center">Fast and Stunning  </p>
+  <p class="lead text-center">Websites for clients, hassle free. </p>
+  <hr class="my-3">
+  <p class="lead text-center">
+    <a class="btn btn-dark btn-lg" href="{% url 'project_index'%}" role="button">See my work</a>
+  </p>
+</div>
+{% endblock %}
+</body>
+</html>
+
