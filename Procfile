@@ -1,1 +1,1 @@
-web: personal_portfolio.wsgi.application
+web: personal_portfolio.wsgi
