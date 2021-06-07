@@ -1,1 +1,1 @@
-web: gunicorn personal_portfolio:app
+web: personal_portfolio.wsgi.application
