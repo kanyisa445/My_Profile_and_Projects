@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", cast=bool, default=True)
 
-ALLOWED_HOSTS = ['kanyisa.herokuapp.com']
+ALLOWED_HOSTS = ['khanyisa.herokuapp.com']
 
 
 # Application definition
