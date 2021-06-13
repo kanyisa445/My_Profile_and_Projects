@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 import django_heroku
 import dj_database_url
-from decouple import config
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -23,12 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config("SECRET_KEY")
+SECRET_KEY = "i=)+5-*dw8y@$pt!v7ncf1lo1kmgj=0o+o8w03_ifxm9&3vduo"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config("DEBUG", cast=bool, default=True)
+DEBUG = True
 
-ALLOWED_HOSTS = ['khanyisa.herokuapp.com']
+ALLOWED_HOSTS = ['']
 
 
 # Application definition
