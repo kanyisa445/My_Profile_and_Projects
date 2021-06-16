@@ -4,24 +4,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>About me</title>
 </head>
 <body>
 {% block page_content %}
-<div class="jumbotron" style="background-color: red">
+<div class="container" style="background-color:red">
   <h1 class="display-6 text-center">About Me</h1>
 </div>
-<div class="row d-flex justify-content-center">
-    <div class="col-4">
+<div class="container">
+    <div class="row">
+     <div class="col-md-6 col-lg-4">
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
            <div class="card-body">
            <h5 class="card-title">Who am I</h5>
            <p class="card-text">My name is Kanyisa Breakfast. I am a big dreamer and hardworking Web developer from South Africa.</p>
-       </div>
-</div>
-
-    </div>
-    <div class="col-4">
+           </div>
+        </div>
+     </div>
+    <div class="col-md-6 col-lg-4">
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
              <div class="card-body">
              <h5 class="card-title">My focus area</h5>
@@ -29,7 +29,7 @@
          </div>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-md-6 col-lg-4">
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
         <div class="card-body">
         <h5 class="card-title">Projects I work with</h5>
@@ -37,17 +37,15 @@
         </div>
      </div>
     </div>
-</div>
-
-<div class="row d-flex justify-content-center">
-    <div class="col-4">
-            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-            <div class="card-body">
+    <div class="col-md-6 col-lg-4">
+    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
             <h5 class="card-title">Why work with me</h5>
             <p class="card-text">I pride myself on my spectacular client service. Solving clients most pressing problems with simplicity, a great look and quality design. </p>
             </div>
-            </div>
+        </div>
     </div>
+ </div>
 </div>
 
 {% endblock %}
