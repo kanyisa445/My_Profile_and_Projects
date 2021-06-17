@@ -29,7 +29,7 @@ SECRET_KEY = "i=)+5-*dw8y@$pt!v7ncf1lo1kmgj=0o+o8w03_ifxm9&3vduo"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kanyisa.herokuapp.com']
 
 
 # Application definition
